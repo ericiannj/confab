@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:prettier/react",
+        "plugin:prettier/@typescript-eslint"
+    ],
+    "plugins": ["@typescript-eslint", "react", "prettier"],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+        "@typescript-eslint/no-non-null-assertion": "off"
+    },
+    "globals": {
+        "React": "writable"
+    }
 }

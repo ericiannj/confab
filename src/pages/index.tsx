@@ -1,7 +1,15 @@
+import { Navbar, MainPanel } from '@/components'
 import type { NextPage } from 'next'
+import GlobalStyles from '@/styles/GlobalStyles'
 
 const Home: NextPage = () => {
-    return <h1>Next TS Boilerplate</h1>
+    return (
+        <>
+            <GlobalStyles />
+            <Navbar />
+            <MainPanel />
+        </>
+    )
 }
 
 export default Home

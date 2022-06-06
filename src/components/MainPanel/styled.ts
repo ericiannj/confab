@@ -34,7 +34,7 @@ export const MainDescription = styled.p`
 `
 
 export const ImagesContainer = styled.div`
-    position: fixed;
+    position: absolute;
     top: 13em;
     left: 40em;
 `

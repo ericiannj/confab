@@ -1,4 +1,4 @@
-import { Navbar, MainPanel } from '@/components'
+import { Navbar, MainPanel, PartnerPanel } from '@/components'
 import type { NextPage } from 'next'
 import GlobalStyles from '@/styles/GlobalStyles'
 
@@ -8,6 +8,7 @@ const Home: NextPage = () => {
             <GlobalStyles />
             <Navbar />
             <MainPanel />
+            <PartnerPanel />
         </>
     )
 }

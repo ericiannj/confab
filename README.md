@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="./src/assets/icons/confab02.png" width="80">
+	<img src="./public/assets/images/confab02.png" width="80">
 </p>
 
 <h1 align="center">Confab</h1>
@@ -12,7 +12,7 @@
 
 ## Description
 
-Confab is an application about people and conferences. Users are invited to for virtual events and create your own too.
+Confab is an application about people and conferences. Users are invited to join virtual events and create your own too.
 
 ## Content
 
@@ -21,6 +21,7 @@ Confab is an application about people and conferences. Users are invited to for 
 -   [Content](#content)
 -   [How to use it?](#how-to-use-it)
 -   [Stack and Technoloy](#stack-and-technology)
+-   [Application Photos](#application-photos)
 
 ## How to use it?
 
